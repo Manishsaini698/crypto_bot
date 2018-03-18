@@ -30,13 +30,10 @@ def handler(msg):
     user = msg['from']['id']
     text = msg['text'].upper()
     text_1 = text.split(' ')[0]
-    print(text_1)
     run_this = cmd_dict.get(text_1, reply)
-    print(run_this)
     run_this(user, text)
  
 def run_bot():
     MessageLoop(bot, {'chat':handler}).run_as_thread()
-    print("hello")
     while True:
         time.sleep(10)
