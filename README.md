@@ -1,5 +1,6 @@
 Telegram Cryptocurrency Bot
 ===========================
+|Cryptocureny Bot sends the present value of any cryptocurrency you want to know....
 
 Setup (for development)
 -----------------------
